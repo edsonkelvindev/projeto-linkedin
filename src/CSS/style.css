@@ -31,12 +31,19 @@ body {
     position: relative;
 }
 
-.icone {
+.icone-linkedin {
     cursor: pointer;
     width: 36px;
     height: 36px;
     margin-right: 8px;
     background-repeat: no-repeat;
+}
+
+.icone-busca {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 50px;
 }
 
 .barra-pesquisa {
@@ -50,7 +57,7 @@ body {
 
 .barra-pesquisa::placeholder {
     color: var(--texto-secundario);
-    padding-left: 5px;
+    padding-left: 35px;
 }
 
 .cabecalho nav {
