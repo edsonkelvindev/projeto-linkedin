@@ -1,0 +1,9 @@
+@media(max-width: 1024px) {
+    section.cabecalho {
+        padding: 0 4rem;
+    }
+
+    .barra-pesquisa {
+        display: none;
+    }
+}
