@@ -44,6 +44,7 @@ body {
     height: 24px;
     position: absolute;
     left: 50px;
+    cursor: pointer;
 }
 
 .barra-pesquisa {
@@ -139,14 +140,14 @@ main {
     border-radius: 50%;
 }
 
-.detalhes-perfil {
+.detalhe-perfil {
     display: flex;
     justify-content:space-around;
     align-items: center;
     margin-left: -55px;
 }
 
-.detalhes-pessoal h1 {
+.detalhe-pessoal h1 {
     font-size: 1.5em;
 }
 
@@ -162,11 +163,11 @@ main {
     align-items: center;
 }
 
-.detalhes-pessoal div {
+.detalhe-pessoal div {
     font-size: 1em;
 }
 
-.detalhes-pessoal .texto-pequeno {
+.detalhe-pessoal .texto-pequeno {
     font-size: .875em;
     color: var(--texto-secundario);
 }
@@ -186,7 +187,6 @@ main {
 .conexoes {
     display: flex;
     position: relative;
-    margin-left: 30px;
     font-size: .875em;
 }
 
@@ -202,7 +202,7 @@ main {
 .btn-acoes button {
     border-radius: 20px;
     padding: 8px 15px;
-    margin: 6px 0 0 30px;
+    margin: 6px 0;
     font-weight: bold;
     cursor: pointer;
 }
