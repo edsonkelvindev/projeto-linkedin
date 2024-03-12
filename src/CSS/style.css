@@ -13,6 +13,7 @@
 body {
     background: var(--fundo-escuro);
     margin-bottom: 40px;
+    overflow-x: hidden;
 }
 
 .cabecalho {

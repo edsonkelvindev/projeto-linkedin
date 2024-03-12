@@ -1,10 +1,6 @@
-@media(max-width: 880px) {
-    .barra-pesquisa, .sugestoes, hr {
+@media(max-width: 1175px) {
+    .sugestoes, hr {
         display: none;
-    }
-
-    .icone-busca {
-        left: 65px;
     }
 
     .nav-input {
@@ -20,6 +16,16 @@
     .nav-input li span {
         display: none;
     }
+}
+
+@media(max-width: 880px) {
+    .icone-busca {
+        left: 65px;
+    }
+
+    .barra-pesquisa {
+        display: none;
+    }
 
     .informacoes-perfil {
         width: 96vw;
@@ -28,7 +34,7 @@
 
     .imagem-fundo img {
         width: 100%;
-        object-fit: cover;  
+        object-fit: cover;
     }
 
     .detalhe-perfil {
@@ -42,11 +48,70 @@
 
     .detalhes-carreira {
         display: flex;
-        justify-content:space-around;
+        justify-content: space-around;
         align-items: center;
         width: 400px;
         margin-left: -30px;
         padding-bottom: 8px;
     }
 
+    .destaques {
+        width: 96vw;
+    } 
+
+    .publicacoes-destaque {
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .detalhes-carreira::-webkit-scrollbar {
+        width: 12px;
+        /* Largura da barra de rolagem */
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Cor de fundo da barra de rolagem */
+    }
+
+    /* Estilizando o indicador da barra de rolagem */
+    .detalhes-carreira::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.8);
+        /* Cor do indicador da barra de rolagem */
+        border-radius: 6px;
+        /* Borda arredondada do indicador da barra de rolagem */
+    }
+
+    .publicacoes {
+        margin-right: 20px;
+        flex: 0 0 auto;
+    }
+
+    .imagem-publicada {
+        width: 150px;
+        height: auto;
+    }
+
+    .publicacoes span {
+        display: block;
+    }
 }
+
+@media (max-width: 480px) {
+    .cabecalho {
+        display: flex;
+    }
+
+    .icone-busca {
+        left: 50px;
+    }
+
+    .nav-input ul {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-input ul li {
+        align-items: center;
+        margin-right: 15px;
+    }
+}
+
